@@ -1,65 +1,43 @@
-# Chrome Extension: AZ Problem Tracker
+# LeetCode Bookmark Chrome Extension
 
-## Introduction  
-**AZ Problem Tracker** is a Chrome extension that helps students bookmark and manage problems on the [maang.in](https://maang.in) website. This project is part of a hands-on course designed to teach Chrome extension development, covering essential concepts like manifest files, storage APIs, and content scripts.
+A Chrome Extension that allows users to bookmark LeetCode problems and manage them efficiently.
 
-With this extension, users can:  
-- Bookmark problems for later review.  
-- View and manage bookmarked problems directly from the extension.  
-- Learn key development concepts while building a practical tool.  
+## Features
 
----
+* Bookmark LeetCode problems directly from the problem page
+* View all bookmarked problems in the extension popup
+* Search problems by name
+* Filter problems by difficulty (Easy / Medium / Hard)
+* Sort problems by name or difficulty
+* Delete bookmarks easily
 
-## Repository Structure  
+## Tech Stack
 
-This repository contains the following folders:  
+* HTML
+* CSS
+* JavaScript
+* Chrome Extension API
 
-1. **Starter Files**:  
-   This folder includes the base setup for the project, with the essential files to kickstart your development journey.  
-   Path: `Starter Files/`
+## How to Install
 
-2. **Final Code**:  
-   This folder contains the complete and functional Chrome extension. You can refer to this for understanding the final implementation or troubleshooting issues.  
-   Path: `Final Code/`
+1. Download or clone this repository
+2. Open Google Chrome
+3. Go to `chrome://extensions`
+4. Enable **Developer Mode**
+5. Click **Load Unpacked**
+6. Select this project folder
 
----
+## Project Structure
 
-## Getting Started  
+chrome-ext-problem-tracker
+│
+├── manifest.json
+├── content.js
+├── pop_up.html
+├── scripts.js
+├── style.css
+├── assets/
 
-### Prerequisites  
-- Basic knowledge of JavaScript, HTML, and CSS.  
-- A text editor (e.g., Visual Studio Code).  
-- Google Chrome browser for testing.
+## Author
 
-### Installation  
-
-1. **Clone the Repository**  
-   ```bash
-   git clone https://github.com/Algozenith/chrome-ext-problem-tracker.git
-   cd chrome-ext-problem-tracker
-   ```
-
-2. **Load the Extension in Chrome**  
-   - Open Chrome and go to `chrome://extensions/`.  
-   - Enable **Developer Mode** (toggle at the top-right).  
-   - Click on **Load unpacked** and select the `starter-files` or `final-code` folder.
-
----
-
-## How to Use  
-
-1. Visit the [maang.in](https://maang.in) website.  
-2. Use the AZ Problem Tracker extension to bookmark problems.  
-3. Access your saved bookmarks from the extension popup.
-
----
-
-## Learn While Building  
-
-Follow along with the course to build this project step-by-step. You'll gain hands-on experience with:  
-- Chrome extension architecture.  
-- Interacting with web pages using content scripts.  
-- Saving data with Chrome's Storage API.  
-- Debugging and testing extensions.  
-
-Happy coding! 🚀
+Veekshitha
